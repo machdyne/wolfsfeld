@@ -1,0 +1,59 @@
+# Wolfsfeld V0
+# ------------
+
+set_io LED_R	41
+set_io LED_G	40
+set_io LED_B	39
+
+# FRAM
+set_io RAM_SS		25
+set_io RAM_WP		23
+set_io RAM_SI		27
+set_io RAM_SO		26
+set_io RAM_SCK		28
+
+# PMODA
+set_io PMOD_A4		32
+set_io PMOD_A3		34
+set_io PMOD_A2		36
+set_io PMOD_A1		38
+
+# TRRS digital
+set_io GPIOX		42
+set_io GPIOY		43
+
+# TRRS analog
+set_io ADC			31
+
+# zwölf socket
+set_io GPIOA		45
+set_io GPIOB		46
+set_io GPIOC		47
+set_io GPIOD		48
+
+set_io DAC_D0		4
+set_io DAC_D1		3
+set_io DAC_D2		2
+set_io DAC_D3		44
+
+# display
+set_io -pullup yes DISP_SDA	6
+set_io -pullup yes DISP_SCL	9
+
+# key LEDs
+set_io L1			10
+set_io L2			11
+set_io L3			12
+set_io L4			13
+
+# keys
+set_io -pullup yes	K1		18
+set_io -pullup yes	K2		19
+set_io -pullup yes	K3		20
+set_io -pullup yes	K4		21
+
+# SPI
+set_io CSPI_SS			16
+set_io CSPI_SCK		15
+set_io CSPI_MISO		17		# CSPI_SI
+set_io CSPI_MOSI		14		# CSPI_SO
