@@ -2,6 +2,8 @@
 
 Wolfsfeld is an ultra-low-power stand-alone open-source handheld FPGA computer with a minimal interface intended for educational purposes and survival computing.
 
+![Wolsfeld](https://github.com/machdyne/wolfsfeld/blob/47986875d0e0c8f5599bc599d6db0b98eefcbdc3/wolfsfeld.png)
+
 Wolfsfeld currently boots to BIOS and can perform some tests. The OS isn't working yet.
 
 The Wolfsfeld SOC is a partial fork of [Zeitlos](https://github.com/machdyne/zeitlos).
